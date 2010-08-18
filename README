@@ -1,0 +1,30 @@
+SIMPLY COMPLICATED MUSIC
+========================
+
+- Play a sound every so many units of time.
+- Pick different gaps for different sounds.
+- Primes might sound nice.
+- Should result in paterns that are complex but still recognisably regular.
+- Drum beats should work.
+
+5/7 should result in:
+!    . |  .   | .    . |   .  | .    !    . |  .   |.    . |   .  | .    !    . |  .   |.    .|   .  | .
+
+To Run
+------
+Will only run on OS X because it's using afplay.
+
+  lein repl play-sounds.clj
+
+
+Notes
+-----
+I initially tried to get the sounds playing with clojure or java libraries
+rather than shelling out. Unfortunately after a little research it looked like
+the libraries out there were verbose and unnessisarily complex, for my needs at
+least.
+
+Attribution
+-----------
+Audio samples taken from http://www.dooleydrums.com/
+
